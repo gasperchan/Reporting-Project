@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<script src="https://use.fontawesome.com/4a63b7fdc0.js"></script>
 		<title>Carbonite Reporting Console</title>
 		<link rel="stylesheet" href="main.css">
 	</head>
@@ -10,9 +11,48 @@
 		<div id="container">
 			<div id="header">
 				<img src="assets/carbonite-logo.png">
-				<p>Home</p>
-				<p>Report Settings</p>
+				<a>Home</a>
+				<a>Report Settings</a>
 			</div>
+
+			<div id="page-title">
+				<h1>Reporting Console</h1>
+			</div>
+
+			<div id="tab-row">
+				<a class="tab">All Servers</a>
+				<a class="tab">Job Health</a>
+				<a class="tab">Activity Reporting</a>
+
+				<div id="sql-name">
+					<a id="sql-selector">sql_server_name</a> <i class="fa fa-angle-down"></i>
+				</div>
+			</div>
+
+			<div id="filters">
+				<div class="filter-btn">
+					<h3>All</h3>
+					<p>400</p>
+				</div>
+				<div class="filter-btn">
+					<h3>Healthy</h3>
+					<p>281</p>
+				</div>
+				<div class="filter-btn">
+					<h3>Warnings</h3>
+					<p>68</p>
+				</div>
+				<div class="filter-btn">
+					<h3>Errors</h3>
+					<p>41</p>
+				</div>
+				<div class="filter-btn">
+					<h3>Unknown</h3>
+					<p>10</p>
+				</div>
+			</div>
+
+			
 		</div>
 	</body>
 </html>

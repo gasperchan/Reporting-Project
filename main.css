@@ -3,6 +3,53 @@
 	margin: 0;
 }
 
+body {
+	font-family: "Open Sans";
+}
+
+h1 {
+	font-size: 28px;
+	color: #333333;
+	font-weight: 100;
+	line-height: 36px;
+}
+
+h3 {
+	font-size: 16px;
+	color: #333333;
+	line-height: 24px;
+	font-weight: normal;
+}
+
+#tab-row {
+	margin-top: 36px;
+	margin-left: 36px;
+	margin-right: 36px;
+	padding-bottom: 8px;
+	border-bottom: 0.5px solid #E3E3E3;
+	position: relative;
+}
+
+#sql-name {
+	position: absolute;
+	right: 0px;
+	bottom: 8px;
+}
+
+.tab {
+	font-size: 16px;
+	color: #E3E3E3;
+	line-height: 24px;
+	margin-right: 48px;
+
+}
+
+a {
+	font-size: 14px;
+	color: #134761;
+}
+
+
 #header {
 	height: 96px;
 	line-height: 96px;
@@ -15,8 +62,46 @@
 	margin-left: 36px;
 }
 
-p {
+#header a {
 	position: relative;
 	display: inline-block;
-	margin: auto 8px;
+	margin-left: 60px;
+	color: #FFFFFF;
+}
+
+#page-title {
+	margin-top: 42px;
+	margin-left: 36px;
+}
+
+.fa-angle-down {
+	color: #134761;
+}
+
+#filters {
+	position: absolute;
+	margin-left: 36px;
+	margin-top: 16px;
+}
+
+.filter-btn {
+	border: 1px solid #CDCDCD;
+	border-radius: 4px;
+	width: 175px;
+	height: 88px;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	margin-right: 16px;
+}
+
+.filter-btn h3 {
+	margin-top: 8px;
+}
+
+.filter-btn p {
+	font-size: 36px;
+	color: #333333;
+	line-height: 48px;
+	font-weight: 100;
 }
