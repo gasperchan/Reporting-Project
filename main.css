@@ -1,0 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#header {
+	height: 96px;
+	line-height: 96px;
+	vertical-align: middle;
+	width: 100%;
+	background-color: #134761;
+}
+
+#header img {
+	margin-left: 36px;
+}
+
+p {
+	position: relative;
+	display: inline-block;
+	margin: auto 8px;
+}
